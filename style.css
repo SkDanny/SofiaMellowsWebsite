@@ -1,0 +1,57 @@
+:root{
+      --color-1: #FBF8F1;
+      --color-2: #F7ECDE;
+      --color-3: #E9DAC1;
+      --color-4: #54BAB9;
+}
+body{
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+}
+.btn{
+      font-family: "Montserrat", sans-serif;
+      cursor: pointer;
+      color: white;
+      padding: 0.3rem 1rem;
+      font-size: 2rem;
+      background-color: var(--color-4);
+      border-radius: 0%;
+      border: none;
+      box-shadow: 0 2px 3px var(--color-3);
+      font-weight: 300;
+}
+.navlinks a{
+      color: grey;
+      font-weight: 300;
+      font-size: 1.5rem;
+      text-decoration: none;
+      margin: 0 0.5rem;
+}
+.navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: var(--color-1);
+      box-shadow: 0 1px 4px var(--color-3);
+      height: 4rem;
+}
+.logo{
+      text-shadow: 0 1px 5px var(--color-1);
+      font-weight: 700;
+      color: var(--color-4);
+      font-size: 2rem;
+}
+.section1{
+      display: flex;
+      padding: 3% 10%;
+      align-items: center;
+      gap: 2rem;
+}
+.section1 span{
+      font-size: 1.5rem;
+      line-height: 2rem;
+}
+
+.aindra{
+      border-radius: 10% 40%;
+}
